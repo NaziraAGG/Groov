@@ -1,0 +1,37 @@
+
+@media (max-width: 1200px) {
+    .container .product .product_type {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .container .desk .comp {
+        padding: 70px 0;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .header .nav {display: none;}
+    .header .nav_end {display: none;}
+    .header .burger_menu {display: flex;}
+    .header .nav {padding: 20px;}
+}
+
+@media (max-width: 576px) {
+ 
+
+}
+
+@media (max-width: 360px) {
+
+}

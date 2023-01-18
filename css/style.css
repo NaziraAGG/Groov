@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.header {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .burger_menu {
+  display: none;
+  gap: 5px;
+  flex-direction: column;
+  background: none;
+  border: 0;
+}
+.header .burger_menu:hover {
+  cursor: pointer;
+}
+.header .burger_menu span {
+  width: 40px;
+  height: 5px;
+  background: #000000;
+  border-radius: 10px;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header .nav a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.header .nav_end a {
+  text-decoration: none;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main {
+  background-image: url(../img/main_bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 504px;
+  background-repeat: no-repeat;
+}
+.main_item {
+  padding-top: 189px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.main_item h1 {
+  font-size: 43px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.main_item p {
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.main_item a {
+  padding-top: 16px;
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .desk .des {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+.container .desk .des h1 {
+  font-size: 43px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.container .desk .des p {
+  font-size: 14px;
+  color: #a0a0a0;
+  text-decoration: none;
+  text-align: center;
+}
+.container .desk .des .get {
+  padding-top: 3px;
+  font-size: 13px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.container .desk .comp {
+  padding: 81px 50px 246px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.container .desk .comp .comp_sim .details_bg img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .desk .comp .comp_sim .details h2 {
+  padding-top: 48px;
+  font-size: 27px;
+  text-align: center;
+  color: #000000;
+}
+.container .desk .comp .comp_sim .details p {
+  padding-top: 23px;
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+}
+.container .desk .comp .comp_dif .details_bg img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .desk .comp .comp_dif .details h2 {
+  padding-top: 48px;
+  font-size: 27px;
+  text-align: center;
+  color: #000000;
+}
+.container .desk .comp .comp_dif .details p {
+  padding-top: 23px;
+  font-size: 13px;
+  text-align: center;
+  color: #000000;
+}
+.container .product {
+  padding: 0 63px 160px;
+}
+.container .product h2 {
+  font-size: 33px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.container .product p {
+  padding-top: 16px;
+  font-size: 15px;
+  color: #a0a0a0;
+  text-decoration: none;
+  text-align: center;
+}
+.container .product .between {
+  padding-bottom: 24px;
+}
+.container .product .between p {
+  font-size: 10px;
+  color: #E4E4E4;
+  text-align: start;
+}
+.container .product .between .points {
+  display: flex;
+  flex-direction: normal;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.container .product .between .points .cub {
+  width: 7px;
+  height: 7px;
+  background: #000000;
+}
+.container .product .product_type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.container .product .product_type .type_bg img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container .product .product_type .type_tx {
+  color: #a0a0a0;
+  font-size: 13px;
+}
+.container .product .product_type .type_tx p {
+  text-align: start;
+}
+
+.home {
+  width: 100%;
+  height: 504px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/inspiration.jpg);
+
+}
+.home_item {
+  padding-top: 189px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.home_item h1 {
+  font-size: 66px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.home_item p {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+.home_item a {
+  padding-top: 16px;
+  font-size: 13px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .hard h2 {
+  padding-top: 116px;
+  font-size: 34px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.container .hard p {
+  padding-top: 23px;
+  font-size: 16px;
+  color: #a0a0a0;
+  text-decoration: none;
+  text-align: center;
+}
+.container .hard .hard_way {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 40px auto;
+  max-width: 1052px;
+  height: 592px;
+
+}
+.container .work h2 {
+  font-size: 34px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.container .work p {
+  padding-top: 23px;
+  font-size: 16px;
+  color: #a0a0a0;
+  text-decoration: none;
+  text-align: center;
+}
+.container .work .work_list {
+  padding: 79px 50px 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 27px;
+  flex-wrap: wrap;
+}
+
+.container .work .work_list .grid {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 203px;
+  height: 271px;
+}
+
+@media (max-width: 1200px) {
+  .container .product .product_type {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .container .desk .comp {
+    padding: 70px 0;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .header .nav {
+    display: none;
+  }
+  .header .nav_end {
+    display: none;
+  }
+  .header .burger_menu {
+    display: flex;
+  }
+  .header .nav {
+    padding: 20px;
+  }
+}
